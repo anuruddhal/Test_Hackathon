@@ -16,7 +16,7 @@ kubectl create -f  deployment.yaml
 1. Run following command to run mysql in a local Docker container.
 
 ```
-docker run -e MYSQL_ROOT_PASSWORD=root -p 3306:3306  -d anuruddhal/pets_db:1.00
+docker run -e MYSQL_ROOT_PASSWORD=root -p 3306:3306  -d anuruddhal/pets_db:1.0.0
 ```
 
 ## Connection details
